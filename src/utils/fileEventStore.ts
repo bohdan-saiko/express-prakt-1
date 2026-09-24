@@ -7,7 +7,8 @@ const __dirname = path.dirname(__filename);
 
 const filePath = path.join(__dirname, '../../data/events.json');
 
-interface Event {
+export interface Event {
+    id: string;
     title: string;
     date: string;
 }
